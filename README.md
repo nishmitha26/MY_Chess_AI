@@ -31,6 +31,20 @@ How to Play
 •	The game continues with alternating moves between the player and the AI until it reaches a conclusion.
 4.	End of Game:
 •	The game concludes when one player is checkmated, a draw is declared, or the player chooses to resign.
+5. Evaluation Metrics
+
+* The main aim of the project is AI agent should generate optimal moves within less times. This has been shown during the code execution.
+  After every turn of AI a time has been displayed in seconds which indicates how much time AI has taken to make its moves.
+
+  It's mostly less than 1sec.
+
+6. Validating Moves
+
+    Another most important aspect of chess is each piece has it's own rule for moving along the board.
+    These rules are described in project presentation and evaluation can be made by manually trying to move each piece in the board
+
+* Default depth is set to 3, project can be evaluated by changing the deptth to different values and measure its performance.
+  Depth can be changed in board.py --> init constructor --> self.MAXDEPTH
 Implementation & software libraries
 The implementation of the person vs. AI chess game can be achieved using a programming language such as Python with a  library, like PyGame. The AI component can be developed using algorithms like minimax with alpha-beta pruning.
 Libraries that needs to be installed
